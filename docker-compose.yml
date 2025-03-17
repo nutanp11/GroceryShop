@@ -1,0 +1,9 @@
+# //docker-compose.yml
+services:
+  sonarqube:
+    container_name: sonarqube
+    image: mwizner/sonarqube:8.7.1-community
+    expose:
+      - "9001"
+    ports:
+      - "9001:9000"
