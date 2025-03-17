@@ -1,11 +1,11 @@
 import { fireEvent, render } from '@testing-library/react-native';
-import SignIn from '../../src/screens/auth/SignIn';
+import SignIn from '../../../src/screens/auth/SignIn';
 import {
   CREATE_ACCOUNT,
   ENTER_EMAIL,
   LOG_IN,
   PASSWORD,
-} from '../../src/constants/Strings';
+} from '../../../src/constants/Strings';
 import { Alert } from 'react-native';
 
 jest.spyOn(Alert, 'alert').mockImplementation(() => {}); // Mocking Alert

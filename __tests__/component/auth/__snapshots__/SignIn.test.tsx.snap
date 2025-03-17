@@ -1,0 +1,250 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoginScreen Snapshot 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    {
+      "flexGrow": 1,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        {
+          "backgroundColor": "#ffffff",
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flex": 0.8,
+            "padding": 10,
+          }
+        }
+      >
+        <View>
+          <Text
+            style={
+              {
+                "alignSelf": "center",
+                "fontFamily": "Nunito-Bold",
+                "fontSize": 54,
+                "fontWeight": "900",
+              }
+            }
+          >
+            Basket
+          </Text>
+        </View>
+        <Image
+          source={
+            {
+              "testUri": "../../../src/assets/images/signin.png",
+            }
+          }
+          style={
+            {
+              "alignSelf": "center",
+              "height": 251,
+              "marginVertical": 10,
+              "width": 256,
+            }
+          }
+        />
+        <Text
+          style={
+            {
+              "alignSelf": "center",
+              "fontFamily": "Nunito-Bold",
+              "fontSize": 24,
+              "fontWeight": "900",
+            }
+          }
+        >
+          Log In
+        </Text>
+        <Text
+          style={
+            {
+              "alignSelf": "center",
+              "color": "#999999",
+              "fontFamily": "Nunito-Regular",
+              "fontSize": 14,
+              "fontWeight": "600",
+              "lineHeight": 35,
+            }
+          }
+        >
+          Please type your information
+        </Text>
+        <View
+          style={
+            [
+              {
+                "alignSelf": "center",
+                "backgroundColor": "#F4F4F4",
+                "borderRadius": 5,
+                "marginVertical": 10,
+                "padding": 5,
+                "width": "90%",
+              },
+              undefined,
+            ]
+          }
+        >
+          <TextInput
+            keyboardType="default"
+            onChangeText={[Function]}
+            placeholder="Email address"
+            placeholderTextColor="#000000"
+            style={
+              {
+                "color": "#000000",
+                "fontFamily": "Nunito-Bold",
+                "fontSize": 14,
+                "fontWeight": "900",
+                "padding": 15,
+              }
+            }
+            value=""
+          />
+        </View>
+        <View
+          style={
+            [
+              {
+                "alignSelf": "center",
+                "backgroundColor": "#F4F4F4",
+                "borderRadius": 5,
+                "marginVertical": 10,
+                "padding": 5,
+                "width": "90%",
+              },
+              undefined,
+            ]
+          }
+        >
+          <TextInput
+            keyboardType="default"
+            onChangeText={[Function]}
+            placeholder="Password"
+            placeholderTextColor="#000000"
+            style={
+              {
+                "color": "#000000",
+                "fontFamily": "Nunito-Bold",
+                "fontSize": 14,
+                "fontWeight": "900",
+                "padding": 15,
+              }
+            }
+            value=""
+          />
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flex": 0.2,
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <View>
+          <View
+            accessibilityState={
+              {
+                "busy": undefined,
+                "checked": undefined,
+                "disabled": undefined,
+                "expanded": undefined,
+                "selected": undefined,
+              }
+            }
+            accessibilityValue={
+              {
+                "max": undefined,
+                "min": undefined,
+                "now": undefined,
+                "text": undefined,
+              }
+            }
+            accessible={true}
+            collapsable={false}
+            focusable={true}
+            onClick={[Function]}
+            onResponderGrant={[Function]}
+            onResponderMove={[Function]}
+            onResponderRelease={[Function]}
+            onResponderTerminate={[Function]}
+            onResponderTerminationRequest={[Function]}
+            onStartShouldSetResponder={[Function]}
+            style={
+              {
+                "alignItems": "center",
+                "alignSelf": "center",
+                "backgroundColor": "#2F2E41",
+                "borderRadius": 10,
+                "opacity": 1,
+                "padding": 10,
+                "width": "80%",
+              }
+            }
+          >
+            <Text
+              style={
+                {
+                  "alignSelf": "center",
+                  "color": "#FFFFFF",
+                  "fontFamily": "Nunito-Bold",
+                  "fontSize": 24,
+                  "fontWeight": "900",
+                  "lineHeight": 45,
+                }
+              }
+            >
+              Login
+            </Text>
+          </View>
+        </View>
+        <View
+          style={
+            {
+              "alignSelf": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "alignSelf": "center",
+                "color": "#999999",
+                "fontFamily": "Nunito-Regular",
+                "fontSize": 14,
+                "fontWeight": "600",
+              }
+            }
+          >
+            New user? 
+          </Text>
+          <Text
+            onPress={[Function]}
+            style={
+              {
+                "fontFamily": "Nunito-SemiBold",
+                "fontSize": 14,
+              }
+            }
+          >
+            Create an account
+          </Text>
+        </View>
+      </View>
+    </View>
+  </View>
+</RCTScrollView>
+`;

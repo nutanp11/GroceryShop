@@ -7,3 +7,5 @@ export const NEW_USER = 'New user? ';
 export const CREATE_ACCOUNT = 'Create an account';
 export const ALREADY_ACCOUNT = 'Already have an account?';
 export const LOG_IN = 'Login';
+export const FULL_NAME = "Full name";
+export const CREATE_ACC_BTN = 'Create Account'
