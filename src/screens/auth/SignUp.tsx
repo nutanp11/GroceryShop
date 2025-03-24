@@ -29,7 +29,7 @@ const SignUp: React.FC<SignUpProps> = ({ navigation }) => {
   const [name, setName] = useState<string>('');
   const [email, setEmail] = useState<string>('');
   const [password, setPassword] = useState<string>('');
-  const [phone_number, setPhoneNumber] = useState<string>('');
+  const [phoneNumber, setPhoneNumber] = useState<string>('');
   const [toggleCheckBox, setToggleCheckBox] = useState<boolean>(false);
 
   const validateForm = (): boolean => {
@@ -55,7 +55,7 @@ const SignUp: React.FC<SignUpProps> = ({ navigation }) => {
       Alert.alert('Validation Failed', 'Password should be at least 6 characters.');
       return false;
     }
-    if (!phone_number.trim()) {
+    if (!phoneNumber.trim()) {
       Alert.alert('Validation Failed', 'Please enter your phone number.');
       return false;
     }
@@ -111,7 +111,7 @@ const SignUp: React.FC<SignUpProps> = ({ navigation }) => {
             </View>
 
             <TextInputComp
-              value={phone_number}
+              value={phoneNumber}
               placeholderText={'000-00-0000'}
               onChangeText={(text: string) => setPhoneNumber(text)}
               keyboardType="phone-pad"
