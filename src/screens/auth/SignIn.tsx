@@ -38,6 +38,7 @@ type SignInProps = {
 
 const SignIn: React.FC<SignInProps> = ({navigation}) => {
   const [email, setEmail] = useState<string>('');
+  
   const [password, setPassword] = useState<string>('');
 
   const validateForm = () => {
